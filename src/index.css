@@ -1,0 +1,81 @@
+.cover {
+    background-color: hsl(222, 26%, 31%);
+    height: 100rem;
+}
+
+.upper {
+    background-color: hsl(224, 36%, 15%);
+    height: 4rem;
+    width: 22rem;
+    margin: auto;
+    
+    border: solid hsl(224, 36%, 15%);
+    border-radius: 8px;
+}
+.top {
+    width: 20rem;
+    height: 3rem;
+    margin-left: 6px;
+    text-align: right;
+    font-size: 30px;
+    font-weight: 500;
+    background-color: hsl(224, 36%, 15%);
+    color: white;
+}
+.keyPad {
+    background-color: hsl(223, 31%, 20%);
+    height: 19rem;
+    width: 22rem;
+    margin: auto;
+    border: solid hsl(223, 31%, 20%);
+    border-radius: 8px;
+}
+
+.header {
+    color: white;
+    
+    margin-left: 31rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.calcValue {
+    color: white;
+    text-align: right;
+    font-size: 25px;
+}
+.keys {
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    
+}
+button {
+    width: 4rem;
+    border: solid whitesmoke;
+    border-radius: 8px;
+    height: 2.5rem;
+    list-style-type: none;
+    font-size: 18px;
+    font-weight: 600;
+    box-shadow: 2px, 3px, 1px hsl(6, 70%, 34%);
+    
+}
+#result {
+    background-color: hsl(6, 70%, 34%);
+    border: solid hsl(6, 70%, 34%);
+   
+}
+#clear {
+    background-color: hsl(222, 26%, 31%);
+    border: solid hsl(222, 26%, 31%);
+}
+#backspace {
+    background-color: hsl(222, 26%, 31%);
+    border: solid hsl(222, 26%, 31%);
+}
+
+.vv {
+    height: 2rem;
+    padding-bottom: 1rem;
+    width: 10rem;
+}
